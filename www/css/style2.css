@@ -1,0 +1,89 @@
+body{
+	background:url(../img/01.jpg) repeat;		
+}
+
+.white-bkg{
+	background-color: #fff;
+}
+
+.create-acc{
+	background:url('../img/05.jpg') 0 0 no-repeat;
+	height: 27px;	
+	margin:0 0;
+}
+
+.formu{
+	background-color:#ffb8c6;
+	border: solid #fff 5px;
+	box-shadow: 0 0 2px #000; 	
+	padding: 20px 10px;
+}
+
+.sec-title, .new, .reasons{
+	padding:10px 10px;
+}
+
+.option-wrapper{
+	position: relative;
+	background: url('../img/07.gif') 0 0 no-repeat;
+	height: 74px;
+	width: 361px;
+	margin: 0 0 0 25px;
+}
+
+.option-wrapper input{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left:-15px;	
+}
+
+.radio_bkg{
+	height: 74px;
+	width: 361px;
+	background: url('../img/07.gif') 10px 0 no-repeat;
+	position: relative;	
+}
+
+.buy-option{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.pay-text{
+	position: absolute;
+	font-size: 1.6em;
+	color: #fff;
+	top:0px;
+	left: 25px;
+}
+
+.pay-text span{
+	font-size: 0.6em;
+	float:right;
+	margin: 0 0 0 5px;
+}
+
+.price{
+	position: absolute;
+	font-size: 0.8em;
+	float:right;
+	color: #fff;
+	bottom:6px;
+	right:10px;
+}
+
+.footer{
+	position: relative;
+	
+}
+
+.footer-text{
+	padding:10px 10px;
+	position: absolute; 
+   	top: 0; 
+   	left: 0; 
+   	width: 100%; 
+   	z-index: 1;
+}
